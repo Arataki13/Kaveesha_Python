@@ -5,14 +5,15 @@ def add(a, b):
     Args:
         a: First number
         b: Second number
+        c: Third number
     
     Returns:
-        Sum of a and b
+        Sum of a, b, and c
     """
-    return a + b
+    return a + b + c
 
 
 
-if __name__ == "__main__":
-    result = add(5, 3)
-    print(f"5 + 3 = {result}")
+if __name__ == "__main __":
+    result = add(5, 3, 4)
+    print(f"5 + 3 + 4 = {result}")
